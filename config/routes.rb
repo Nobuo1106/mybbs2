@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'top' => 'home#top'
-  get 'top/topics' => "topics#index"
-  get 'topics/index' => 'topics#show'
+  get '/' => 'home#top'
+  get '/topics' => "topics#index"
+  get '/index' => 'topics#show'
 end
